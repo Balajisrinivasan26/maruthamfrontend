@@ -1,0 +1,33 @@
+
+.course-card{
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  gap: 10%;
+  /* padding: 60px; */
+  background-color: rgba(76, 228, 76, 0.623);
+  margin-bottom: 4%;
+  /* border-radius: 30px; */
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: space-evenly;
+
+}
+
+.course-img{
+  height: 100% !important;
+  /* width: 60%; */
+  width:fit-content;
+}
+
+.course-img img{
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+
+}
