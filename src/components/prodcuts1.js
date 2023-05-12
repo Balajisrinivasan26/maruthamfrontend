@@ -14,7 +14,7 @@ const Products = () => {
     setLoading(true)
     try {
       const response = await axios.get(
-        "http://localhost:7000/api/v1/products"
+        "https://victorious-trunks-newt.cyclic.app/api/v1/products"
       )
       console.log(response)
       setproduct(response.data.data["Products"])

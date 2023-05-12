@@ -28,7 +28,7 @@ function Admin() {
 
  async function uploadImage() {
    try{
-   const res = await fetch("http://localhost:7000/api/v1/products",{
+   const res = await fetch("https://victorious-trunks-newt.cyclic.app/api/v1/products",{
       method: "POST",
       crossDomain: true,
       headers: {

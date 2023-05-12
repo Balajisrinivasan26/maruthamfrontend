@@ -10,7 +10,7 @@ const Manual = () => {
     const [search,setSearch] = useState('');
     console.log(id)
     const getData = ()=>{
-        fetch(`http://localhost:7000/api/v1/products/${id}`,{
+        fetch(`https://victorious-trunks-newt.cyclic.app/api/v1/products/${id}`,{
             mode: 'cors',
             headers:{
                 'Content-Type':'application/json',

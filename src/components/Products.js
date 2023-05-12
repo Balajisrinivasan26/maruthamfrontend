@@ -14,7 +14,7 @@ const Products = () => {
   const fetchUserData = async () => {
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:7000/api/v1/products");
+      const response = await fetch("https://victorious-trunks-newt.cyclic.app/api/v1/products");
       const data = await response.json();
       setproduct(data.data["Products"]);
     } catch (error) {

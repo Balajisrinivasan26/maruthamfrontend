@@ -47,7 +47,7 @@ const Products = () => {
 
   const fetchUserData = async() => {
     setLoading(true);
-    let response = await axios.get("http://localhost:7000/api/v1/products")
+    let response = await axios.get("https://victorious-trunks-newt.cyclic.app/api/v1/products")
           .then(res => { console.log(res); setproduct(res.data.data["Products"])}).catch((err)=>{
             console.log(err)
           })
